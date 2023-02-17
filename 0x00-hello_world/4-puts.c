@@ -2,7 +2,7 @@
 /**
  * main - This is a program that uses puts function to print out a
  * string to screen
- * Return : 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
