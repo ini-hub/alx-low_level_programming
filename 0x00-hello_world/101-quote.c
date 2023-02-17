@@ -1,6 +1,6 @@
-#include  <stdio.h>
+#include <stdio.h>
 #include <unixstd>
-/** 
+/**
  * main - A program that prints followed by a new line, to the standard error
  * Return: 1 (Success)
  */
