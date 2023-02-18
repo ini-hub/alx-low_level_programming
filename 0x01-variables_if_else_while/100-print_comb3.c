@@ -17,8 +17,8 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			putchar('%c', digits[i]);
-			putchar('%c', digits[j]);
+			putchar(digits[i]);
+			putchar(digits[j]);
 			count++;
 		}
 	}
