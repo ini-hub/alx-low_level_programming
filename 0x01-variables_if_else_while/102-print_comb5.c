@@ -14,21 +14,21 @@ int main(void)
 			if (i < 10)
 			{
 				putchar('0');
-				putchar(i + '0');
+				putchar(i + '0' + ',');
 			}
 			else
 			{
-				putchar(i + '0');
+				putchar(i + '0' + ',');
 		
 			}
 			if (j < 10)
 			{
 				putchar('0');
-				putchar(j + '0');
+				putchar(j + '0' + ',');
 			}
 			else
 			{
-				putchar(j);
+				putchar(j + ',');
 			}
 		}
 	}
