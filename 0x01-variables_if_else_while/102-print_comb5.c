@@ -14,17 +14,17 @@ int main(void)
 			if (i < 10)
 			{
 				putchar('0');
-				putchar(i + '0' + ',');
+				putchar(i + ',');
 			}
 			else
 			{
-				putchar(i + '0' + ',');
+				putchar(i + ',');
 		
 			}
 			if (j < 10)
 			{
 				putchar('0');
-				putchar(j + '0' + ',');
+				putchar(j + ',');
 			}
 			else
 			{
