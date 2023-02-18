@@ -14,22 +14,23 @@ int main(void)
 			if (i < 10)
 			{
 				putchar('0');
-				putchar(i + ',');
+				putchar(i);
 			}
 			else
 			{
-				putchar(i + ',');
-		
+				putchar(i);
 			}
+			putchar(' ');
 			if (j < 10)
 			{
 				putchar('0');
-				putchar(j + ',');
+				putchar(j);
 			}
 			else
 			{
-				putchar(j + ',');
+				putchar(j);
 			}
+			putchar(',')
 		}
 	}
 	return 0;
