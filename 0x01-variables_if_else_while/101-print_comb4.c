@@ -13,9 +13,9 @@ int main()
 		{
 			for (k = j + 1; k < 10; k++)
 			{
-				putchar('%d', i);
-				putchar('%d', j);
-				putchar('%d', k);
+				putchar(i);
+				putchar(j);
+				putchar(k);
 			}
 		}
 
