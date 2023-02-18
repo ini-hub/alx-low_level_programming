@@ -6,7 +6,7 @@
 int main(void)
 {
 	int i, j, count = 0;
-	char digits[] = "0123456789";
+	int digits[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
 	for (i = 0; i < 9; i++)
 	{
@@ -17,8 +17,8 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			putchar(digits[i]);
-			putchar(digits[j]);
+			putchar(digits[i] + '0');
+			putchar(digits[j] + '0');
 			count++;
 		}
 	}
