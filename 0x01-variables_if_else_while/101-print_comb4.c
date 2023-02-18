@@ -15,7 +15,16 @@ int main()
 			{
 				putchar(i + '0');
 				putchar(j + '0');
-				putchar(k + '0' + ',');
+				putchar(k + '0');
+				if(i ==6 && j == 7 && k == 8)
+				{
+					putchar('\n');
+				}
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 

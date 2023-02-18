@@ -12,16 +12,10 @@ int main(void)
 	{
 		for (j = i+1; j < 10; j++)
 		{
-			if (count > 0)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-			putchar(digits[i] + '0');
-			putchar(digits[j] + '0');
-			count++;
+			putchar('0' + i + 1);
+			putchar('0' + j);
+			putchar(' ');
 		}
 	}
-	putchar('\n');
 	return 0;
 }
