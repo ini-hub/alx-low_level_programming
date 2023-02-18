@@ -3,7 +3,6 @@
  * main  - A program thats complex
  * Return: 0 as Success always
  */
-
 int main(void)
 {
 	int n;
