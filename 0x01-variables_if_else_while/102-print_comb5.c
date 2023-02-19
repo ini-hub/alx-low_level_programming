@@ -9,32 +9,20 @@ int main(void)
 
 	for (i = 0; i <= 98; i++)
 	{
-		for (j = i + 1; j <= 99; j++)
+		j = i + 1;
+		while (j <= 99)
 		{
-			if (i < 10)
-			{
-				putchar('0');
-				putchar(i + '0');
-			}
-			else
-			{
-				putchar(i / 10 + '0');
-				putchar(1 % 10 + '0');
-			}
+			putchar(i / 10 + '0');
+			putchar(i % 10 + '0');
 			putchar(' ');
-			if (j < 10)
+			putchar(j / 10 + '0');
+			putchar(j % 10 + '0');
+			if (i != 98 || j != 99)
 			{
-				putchar('0');
-				putchar(j + '0');
+				putchar(',');
+				putchar(' ');
 			}
-			else
-			{
-				putchar(j / 10 + '0');
-				putchar(j % 10 + '0');
-			}
-			putchar(',');
-			putchar(' ');
+			j++;
 		}
-	}
 	return (0);
 }
