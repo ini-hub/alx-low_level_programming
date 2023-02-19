@@ -3,7 +3,7 @@
  * main - A program that prints all possible different combo of three digits
  * Return: 0 (Success)
  */
-int main()
+int main(void)
 {
 	int i, j, k;
 
@@ -16,7 +16,7 @@ int main()
 				putchar(i + '0');
 				putchar(j + '0');
 				putchar(k + '0');
-				if(i ==7 && j == 8 && k == 9)
+				if (i == 7 && j == 8 && k == 9)
 				{
 					putchar('\n');
 				}
@@ -27,6 +27,6 @@ int main()
 				}
 			}
 		}
-        }
-	return 0;
+	}
+	return (0);
 }
