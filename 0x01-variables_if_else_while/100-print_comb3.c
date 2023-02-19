@@ -6,16 +6,22 @@
 int main(void)
 {
 	int i, j, count = 0;
-	int digits[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+	char digits[] = "0123456789";
 
 	for (i = 0; i < 9; i++)
 	{
 		for (j = i+1; j < 10; j++)
 		{
-			putchar('0' + i + 1);
-			putchar('0' + j);
-			putchar(' ');
+			if (count > 0)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			putchar(digits[i]);
+			putchar(digits[j]);
+			count++;
 		}
 	}
+	putchar('\n')
 	return 0;
 }
