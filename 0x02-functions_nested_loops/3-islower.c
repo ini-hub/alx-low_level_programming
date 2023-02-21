@@ -4,7 +4,6 @@
  * _islower - A function that checks for lowercase character
  * Return: Always 1 (Success) , 0 (Otherwise) 
  */
-
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
