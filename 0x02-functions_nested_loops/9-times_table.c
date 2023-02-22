@@ -11,9 +11,9 @@ void times_table(void)
 	int row;
 	int outp;
 	int out;
-	for (lop = 0; lop <= 10; lop++)
-	{
 
+	for (lop = 0; lop < 10; lop++)
+	{
 		for (row = 0; row < 10; row++)
 		{
 			num = lop * row;
