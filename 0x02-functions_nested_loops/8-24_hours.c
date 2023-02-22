@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * jack_bauer _ A function that prints every minute of the day of Jack Bauer
+ * jack_bauer - A function that prints every minute of the day of Jack Bauer
  * Return: 0 (Success)
  */
 
@@ -14,7 +14,7 @@ void jack_bauer(void)
 	for (hrs = 0 ; hrs < 24 ; hrs++)
 	{
 		min = 0;
-		while (min < 60 )
+		while (min < 60)
 		{
 			_putchar(hrs / 10 + '0');
 			_putchar(hrs % 10 + '0');
