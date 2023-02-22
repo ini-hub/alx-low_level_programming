@@ -9,12 +9,13 @@ void times_table(void)
 	int lop;
 	int num;
 	int row;
-	int outp, out;
-	for (lop = 0; lop <10; lop++)
+	int outp;
+	int out;
+	for (lop = 0; lop <= 9; lop++)
 	{
-		for (row = 1; row <10; row++)
+		for (row = 0; row <= 9; row++)
 		{
-		num = lop * row;
+			num = lop * row;
 			if (num > 9)
 			{
 				out = num % 10;
