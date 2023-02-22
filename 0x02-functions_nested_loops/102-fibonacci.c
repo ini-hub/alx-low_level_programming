@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
  * main - Prints the fitst 52 fibonacci numbers
