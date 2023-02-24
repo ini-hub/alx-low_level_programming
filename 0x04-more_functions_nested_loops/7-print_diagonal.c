@@ -3,11 +3,13 @@
 /**
  * print_diagonal - A function that draws a diagonal line
  * Return: Always 0
+ * @n: Function parameter
  */
 
 void print_diagonal(int n)
 {
 	int i, lines;
+
 	if (n <= 0)
 	{
 		_putchar('\n');
