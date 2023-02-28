@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _puts - Afunction that prints a string, followed by a new line
+ * print_rev - Afunction that prints a string, followed by a new line
  * @s: Function parameter
  * Return: Always 0
  */
