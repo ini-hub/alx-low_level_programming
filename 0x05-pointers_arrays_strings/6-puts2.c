@@ -2,10 +2,8 @@
 #include <stdio.h>
 
 /**
- * puts2 - prints every other character of a string
- * starting with the first character, followed by a new line
- * Return: Always 0
- * @str: input string
+ * puts2 - prints every other character of a string, starting with the first character
+ * @str: the string to print
  */
 void puts2(char *str)
 {
@@ -15,5 +13,6 @@ void puts2(char *str)
 	{
 		putchar(str[i]);
 	}
+
 	putchar('\n');
 }
