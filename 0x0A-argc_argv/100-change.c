@@ -6,7 +6,7 @@
  * @argc: The number of arguements supplied to the program.
  * @argv: an array of pointers to the arguements.
  * Return: If the number of arguements is not exactly one - 1
- * 		Otherwise - 0
+ * Otherwise - 0
  */
 int main(int argc, char *argv[])
 {
@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 			cents -= 5;
 			continue;
 		}
-		if ((cents -2) >= 0)
+		if ((cents - 2) >= 0)
 		{
 			cents -= 2;
 			continue;
